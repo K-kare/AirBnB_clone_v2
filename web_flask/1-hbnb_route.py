@@ -3,7 +3,7 @@
 Starts a  flask web application
 """
 from flask import Flask
-app = flask(__main__)
+app = Flask(__main__)
 @app.route('/', strict_slashes=False)
 def home():
     """
